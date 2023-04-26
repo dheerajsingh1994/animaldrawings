@@ -1,0 +1,660 @@
+[27-Aug-2022 21:56:06 UTC] PHP Warning:  Undefined variable $signedUrl in /home1/animaldr/public_html/d-list.php on line 38
+[27-Aug-2022 21:56:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUri() on null in /home1/animaldr/public_html/d-list.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 38
+[27-Aug-2022 21:57:06 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 333451264 bytes) in /home1/animaldr/public_html/d-list.php on line 39
+[27-Aug-2022 21:59:05 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/d-list.php on line 28
+[27-Aug-2022 22:11:38 UTC] PHP Warning:  Undefined variable $s3 in /home1/animaldr/public_html/d-list.php on line 13
+[27-Aug-2022 22:11:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getBucket() on null in /home1/animaldr/public_html/d-list.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 13
+[27-Aug-2022 22:12:22 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, string given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('getBucket', 'animal-drawing')
+#1 /home1/animaldr/public_html/d-list.php(13): Aws\AwsClient->__call('getBucket', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[27-Aug-2022 22:13:11 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, string given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('getBucket', 'animal-drawing')
+#1 /home1/animaldr/public_html/d-list.php(13): Aws\AwsClient->__call('getBucket', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[27-Aug-2022 22:13:14 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, string given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('getBucket', 'animal-drawing')
+#1 /home1/animaldr/public_html/d-list.php(13): Aws\AwsClient->__call('getBucket', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[27-Aug-2022 22:21:50 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, string given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('getBucket', 'animal-drawing')
+#1 /home1/animaldr/public_html/d-list.php(13): Aws\AwsClient->__call('getBucket', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[27-Aug-2022 22:21:55 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, string given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('getBucket', 'animal-drawing')
+#1 /home1/animaldr/public_html/d-list.php(13): Aws\AwsClient->__call('getBucket', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[27-Aug-2022 22:22:07 UTC] PHP Warning:  Undefined variable $signedUrl in /home1/animaldr/public_html/d-list.php on line 39
+[27-Aug-2022 22:22:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUri() on null in /home1/animaldr/public_html/d-list.php:39
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 39
+[27-Aug-2022 22:22:30 UTC] PHP Warning:  Undefined variable $signedUrl in /home1/animaldr/public_html/d-list.php on line 39
+[27-Aug-2022 22:22:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUri() on null in /home1/animaldr/public_html/d-list.php:39
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 39
+[28-Aug-2022 08:39:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:20) in /home1/animaldr/public_html/list_old.php on line 94
+[28-Aug-2022 09:13:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:20) in /home1/animaldr/public_html/list_old.php on line 94
+[28-Aug-2022 09:13:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:20) in /home1/animaldr/public_html/list_old.php on line 94
+[28-Aug-2022 09:46:35 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 44
+[28-Aug-2022 09:46:35 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 44
+[28-Aug-2022 09:49:06 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 45
+[28-Aug-2022 09:49:06 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 45
+[28-Aug-2022 09:49:06 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 45
+[28-Aug-2022 09:49:06 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 45
+[28-Aug-2022 09:49:06 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 45
+[28-Aug-2022 09:50:52 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 47
+[28-Aug-2022 09:53:05 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 47
+[28-Aug-2022 09:53:21 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 42
+[28-Aug-2022 09:53:21 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 46
+[28-Aug-2022 10:42:15 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 283119616 bytes) in /home1/animaldr/public_html/list_old.php on line 18
+[28-Aug-2022 10:42:20 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 283119616 bytes) in /home1/animaldr/public_html/list_old.php on line 18
+[28-Aug-2022 17:12:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 201
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:30:15 UTC] PHP Warning:  Undefined variable $tt in /home1/animaldr/public_html/list_old.php on line 38
+[28-Aug-2022 17:34:23 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list_old.php on line 45
+[28-Aug-2022 17:34:23 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list_old.php on line 45
+[28-Aug-2022 17:34:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 210
+[28-Aug-2022 17:35:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 210
+[28-Aug-2022 17:40:55 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 62
+[28-Aug-2022 17:40:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 219
+[28-Aug-2022 17:41:53 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 62
+[28-Aug-2022 17:41:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list_old.php on line 48
+[28-Aug-2022 17:41:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 219
+[28-Aug-2022 17:41:58 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 62
+[28-Aug-2022 17:41:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list_old.php on line 48
+[28-Aug-2022 17:41:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 219
+[28-Aug-2022 17:43:46 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 61
+[28-Aug-2022 17:43:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list_old.php on line 48
+[28-Aug-2022 17:43:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 218
+[28-Aug-2022 17:54:24 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 63
+[28-Aug-2022 17:54:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list_old.php on line 49
+[28-Aug-2022 17:54:24 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 63
+[28-Aug-2022 17:54:24 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 63
+[28-Aug-2022 17:54:24 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 63
+[28-Aug-2022 18:03:28 UTC] PHP Warning:  Undefined variable $MaterialSubdata in /home1/animaldr/public_html/list_old.php on line 67
+[28-Aug-2022 18:03:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list_old.php on line 54
+[28-Aug-2022 18:04:51 UTC] PHP Warning:  Undefined array key "AnimalName" in /home1/animaldr/public_html/list_old.php on line 55
+[28-Aug-2022 18:05:51 UTC] PHP Warning:  Undefined array key "AnimalName" in /home1/animaldr/public_html/list_old.php on line 55
+[28-Aug-2022 18:05:53 UTC] PHP Warning:  Undefined array key "AnimalName" in /home1/animaldr/public_html/list_old.php on line 55
+[28-Aug-2022 18:05:56 UTC] PHP Warning:  Undefined array key "AnimalName" in /home1/animaldr/public_html/list_old.php on line 55
+[28-Aug-2022 18:07:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 229
+[28-Aug-2022 18:14:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 233
+[28-Aug-2022 18:15:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 123
+[28-Aug-2022 18:17:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:26) in /home1/animaldr/public_html/d-list.php on line 123
+[28-Aug-2022 18:32:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 233
+[28-Aug-2022 18:33:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 233
+[28-Aug-2022 18:43:39 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 467668992 bytes) in /home1/animaldr/public_html/d-list.php on line 35
+[28-Aug-2022 19:34:51 UTC] PHP Warning:  Undefined variable $featured in /home1/animaldr/public_html/d-list.php on line 56
+[28-Aug-2022 19:34:51 UTC] PHP Warning:  Undefined variable $featured in /home1/animaldr/public_html/d-list.php on line 56
+[28-Aug-2022 19:45:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 133
+[28-Aug-2022 19:48:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 133
+[28-Aug-2022 20:01:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 133
+[28-Aug-2022 20:02:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 133
+[28-Aug-2022 20:03:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 133
+[28-Aug-2022 20:03:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 133
+[28-Aug-2022 20:04:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 133
+[28-Aug-2022 20:10:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 134
+[28-Aug-2022 20:11:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 134
+[28-Aug-2022 20:11:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 134
+[28-Aug-2022 20:12:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 134
+[28-Aug-2022 20:18:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 140
+[28-Aug-2022 20:18:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 140
+[28-Aug-2022 20:29:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 184
+[28-Aug-2022 20:29:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 184
+[28-Aug-2022 20:31:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 163
+[28-Aug-2022 20:31:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 163
+[28-Aug-2022 20:32:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 140
+[28-Aug-2022 20:32:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 140
+[28-Aug-2022 20:32:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 140
+[28-Aug-2022 20:33:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 140
+[28-Aug-2022 20:33:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 140
+[28-Aug-2022 20:33:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 164
+[28-Aug-2022 20:34:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 165
+[28-Aug-2022 20:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 165
+[28-Aug-2022 20:43:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 170
+[28-Aug-2022 20:43:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 170
+[28-Aug-2022 20:44:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 170
+[28-Aug-2022 20:46:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 20:47:16 UTC] PHP Warning:  Undefined variable $thmbnailImg in /home1/animaldr/public_html/d-list.php on line 151
+[28-Aug-2022 20:47:16 UTC] PHP Warning:  Undefined variable $thmbnailImg in /home1/animaldr/public_html/d-list.php on line 151
+[28-Aug-2022 20:47:16 UTC] PHP Warning:  Undefined variable $thmbnailImg in /home1/animaldr/public_html/d-list.php on line 151
+[28-Aug-2022 20:47:16 UTC] PHP Warning:  Undefined variable $thmbnailImg in /home1/animaldr/public_html/d-list.php on line 151
+[28-Aug-2022 20:47:16 UTC] PHP Warning:  Undefined variable $thmbnailImg in /home1/animaldr/public_html/d-list.php on line 151
+[28-Aug-2022 20:47:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 20:47:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 20:48:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 20:55:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 20:55:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 20:57:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 20:58:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 21:00:59 UTC] PHP Warning:  move_uploaded_file(video/monkey-sample00_59.mp4): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 206
+[28-Aug-2022 21:00:59 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpy1qiKe&quot; to &quot;video/monkey-sample00_59.mp4&quot; in /home1/animaldr/public_html/d-upload.php on line 206
+[28-Aug-2022 21:00:59 UTC] PHP Warning:  mkdir(): No such file or directory in /home1/animaldr/public_html/d-upload.php on line 210
+[28-Aug-2022 21:00:59 UTC] PHP Warning:  chmod(): No such file or directory in /home1/animaldr/public_html/d-upload.php on line 211
+[28-Aug-2022 21:00:59 UTC] PHP Warning:  move_uploaded_file(video/thumbnail/monkey-sample00_59.png): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 213
+[28-Aug-2022 21:00:59 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpvfx3vC&quot; to &quot;video/thumbnail/monkey-sample00_59.png&quot; in /home1/animaldr/public_html/d-upload.php on line 213
+[28-Aug-2022 21:00:59 UTC] PHP Warning:  fopen(/home1/animaldr/public_html/video/monkey-sample00_59.mp4): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 222
+[28-Aug-2022 21:01:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 21:02:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 21:02:45 UTC] PHP Warning:  move_uploaded_file(video/video-sample02_45.mp4): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 206
+[28-Aug-2022 21:02:45 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php9uAYEv&quot; to &quot;video/video-sample02_45.mp4&quot; in /home1/animaldr/public_html/d-upload.php on line 206
+[28-Aug-2022 21:02:45 UTC] PHP Warning:  mkdir(): No such file or directory in /home1/animaldr/public_html/d-upload.php on line 210
+[28-Aug-2022 21:02:45 UTC] PHP Warning:  chmod(): No such file or directory in /home1/animaldr/public_html/d-upload.php on line 211
+[28-Aug-2022 21:02:45 UTC] PHP Warning:  move_uploaded_file(video/thumbnail/video-sample02_45.png): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 213
+[28-Aug-2022 21:02:45 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phplwhila&quot; to &quot;video/thumbnail/video-sample02_45.png&quot; in /home1/animaldr/public_html/d-upload.php on line 213
+[28-Aug-2022 21:02:45 UTC] PHP Warning:  fopen(/home1/animaldr/public_html/video/video-sample02_45.mp4): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 222
+[28-Aug-2022 21:03:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 21:05:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[28-Aug-2022 21:11:45 UTC] PHP Warning:  move_uploaded_file(video/video-sample11_45.mp4): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 206
+[28-Aug-2022 21:11:45 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpWg7aL3&quot; to &quot;video/video-sample11_45.mp4&quot; in /home1/animaldr/public_html/d-upload.php on line 206
+[28-Aug-2022 21:11:45 UTC] PHP Warning:  mkdir(): No such file or directory in /home1/animaldr/public_html/d-upload.php on line 210
+[28-Aug-2022 21:11:45 UTC] PHP Warning:  chmod(): No such file or directory in /home1/animaldr/public_html/d-upload.php on line 211
+[28-Aug-2022 21:11:45 UTC] PHP Warning:  move_uploaded_file(video/thumbnail/video-sample11_45.png): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 213
+[28-Aug-2022 21:11:45 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpDIhIZz&quot; to &quot;video/thumbnail/video-sample11_45.png&quot; in /home1/animaldr/public_html/d-upload.php on line 213
+[28-Aug-2022 21:11:45 UTC] PHP Warning:  fopen(/home1/animaldr/public_html/video/video-sample11_45.mp4): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 222
+[29-Aug-2022 04:56:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[29-Aug-2022 05:09:58 UTC] PHP Warning:  move_uploaded_file(video/Today-with-thumbnail09_58.mp4): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 206
+[29-Aug-2022 05:09:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpULUfxe&quot; to &quot;video/Today-with-thumbnail09_58.mp4&quot; in /home1/animaldr/public_html/d-upload.php on line 206
+[29-Aug-2022 05:09:58 UTC] PHP Warning:  mkdir(): No such file or directory in /home1/animaldr/public_html/d-upload.php on line 210
+[29-Aug-2022 05:09:58 UTC] PHP Warning:  chmod(): No such file or directory in /home1/animaldr/public_html/d-upload.php on line 211
+[29-Aug-2022 05:09:58 UTC] PHP Warning:  move_uploaded_file(video/thumbnail/Today-with-thumbnail09_58.jpg): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 213
+[29-Aug-2022 05:09:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpLzpxND&quot; to &quot;video/thumbnail/Today-with-thumbnail09_58.jpg&quot; in /home1/animaldr/public_html/d-upload.php on line 213
+[29-Aug-2022 05:09:58 UTC] PHP Warning:  fopen(/home1/animaldr/public_html/video/Today-with-thumbnail09_58.mp4): Failed to open stream: No such file or directory in /home1/animaldr/public_html/d-upload.php on line 222
+[29-Aug-2022 23:32:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[29-Aug-2022 23:38:31 UTC] PHP Parse error:  syntax error, unexpected identifier "explode", expecting ")" in /home1/animaldr/public_html/r.php on line 98
+[29-Aug-2022 23:40:23 UTC] PHP Fatal error:  Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in /home1/animaldr/public_html/r.php:98
+Stack trace:
+#0 /home1/animaldr/public_html/r.php(98): explode('/', Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 98
+[29-Aug-2022 23:42:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "explode" in /home1/animaldr/public_html/r.php:98
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 98
+[30-Aug-2022 00:08:50 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/r.php on line 114
+[30-Aug-2022 00:09:24 UTC] PHP Warning:  Array to string conversion in /home1/animaldr/public_html/r.php on line 114
+[30-Aug-2022 00:09:24 UTC] PHP Warning:  Array to string conversion in /home1/animaldr/public_html/r.php on line 114
+[30-Aug-2022 00:09:54 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/r.php on line 114
+[30-Aug-2022 00:10:26 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/r.php on line 114
+[30-Aug-2022 00:12:02 UTC] PHP Fatal error:  Uncaught TypeError: array_values(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/r.php:111
+Stack trace:
+#0 [internal function]: array_values('animal')
+#1 /home1/animaldr/public_html/r.php(111): array_map('array_values', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 111
+[30-Aug-2022 00:12:47 UTC] PHP Fatal error:  Uncaught TypeError: array_values(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/r.php:111
+Stack trace:
+#0 [internal function]: array_values('animal')
+#1 /home1/animaldr/public_html/r.php(111): array_map('array_values', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 111
+[30-Aug-2022 00:12:49 UTC] PHP Fatal error:  Uncaught TypeError: array_values(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/r.php:111
+Stack trace:
+#0 [internal function]: array_values('animal')
+#1 /home1/animaldr/public_html/r.php(111): array_map('array_values', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 111
+[30-Aug-2022 00:13:15 UTC] PHP Fatal error:  Uncaught TypeError: array_values(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/r.php:111
+Stack trace:
+#0 [internal function]: array_values('animal')
+#1 /home1/animaldr/public_html/r.php(111): array_map('array_values', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 111
+[30-Aug-2022 00:15:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: array_map() expects at least 2 arguments, 1 given in /home1/animaldr/public_html/r.php:111
+Stack trace:
+#0 /home1/animaldr/public_html/r.php(111): array_map(Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 111
+[30-Aug-2022 00:17:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: array_map() expects at least 2 arguments, 1 given in /home1/animaldr/public_html/r.php:111
+Stack trace:
+#0 /home1/animaldr/public_html/r.php(111): array_map(Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 111
+[30-Aug-2022 05:49:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:9) in /home1/animaldr/public_html/d-list.php on line 172
+[30-Aug-2022 06:02:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list_old.php:8) in /home1/animaldr/public_html/list_old.php on line 233
+[30-Aug-2022 06:10:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/d-list.php:103) in /home1/animaldr/public_html/d-list.php on line 177
+[30-Aug-2022 09:21:41 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /home1/animaldr/public_html/r.php:114
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 114
+[30-Aug-2022 09:24:41 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home1/animaldr/public_html/r.php:114
+Stack trace:
+#0 /home1/animaldr/public_html/r.php(114): array_push(NULL, Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 114
+[01-Sep-2022 05:14:01 UTC] PHP Parse error:  Unclosed '[' in /home1/animaldr/public_html/d-list.php on line 29
+[01-Sep-2022 05:44:52 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/d-list.php:121
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(121): array_push('animal1.png', 'worldsample.mp')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 121
+[01-Sep-2022 05:45:28 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home1/animaldr/public_html/d-list.php:122
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(122): array_push(NULL, 'https://animal-...')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 122
+[02-Sep-2022 06:05:49 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/d-list.php:121
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(121): array_push('animal1.png', 'animal')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 121
+[02-Sep-2022 06:12:55 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/d-list.php:127
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(127): array_push('', 'animal')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 127
+[02-Sep-2022 06:17:18 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home1/animaldr/public_html/d-list.php:123
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(123): array_push(NULL, 'https://animal-...')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 123
+[02-Sep-2022 06:18:56 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/d-list.php:130
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(130): array_push('', 'animal')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 130
+[04-Sep-2022 08:49:31 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/d-list.php:130
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(130): array_push('', 'animal')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 130
+[09-Sep-2022 05:52:58 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/d-list.php:130
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(130): array_push('', 'animal')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 130
+[12-Sep-2022 01:25:28 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home1/animaldr/public_html/r.php:114
+Stack trace:
+#0 /home1/animaldr/public_html/r.php(114): array_push(NULL, Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 114
+[12-Sep-2022 01:26:07 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home1/animaldr/public_html/r.php on line 114
+[12-Sep-2022 01:26:28 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home1/animaldr/public_html/r.php:114
+Stack trace:
+#0 /home1/animaldr/public_html/r.php(114): array_push(NULL, Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 114
+[12-Sep-2022 01:26:47 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home1/animaldr/public_html/r.php:114
+Stack trace:
+#0 /home1/animaldr/public_html/r.php(114): array_push(NULL, Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 114
+[12-Sep-2022 01:27:01 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home1/animaldr/public_html/r.php:114
+Stack trace:
+#0 /home1/animaldr/public_html/r.php(114): array_push(NULL, Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 114
+[12-Sep-2022 01:31:43 UTC] PHP Warning:  Undefined variable $item in /home1/animaldr/public_html/r.php on line 119
+[12-Sep-2022 01:31:43 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home1/animaldr/public_html/r.php on line 119
+[12-Sep-2022 01:32:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "j" in /home1/animaldr/public_html/r.php:119
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 119
+[12-Sep-2022 01:32:45 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "j" in /home1/animaldr/public_html/r.php:119
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 119
+[12-Sep-2022 01:32:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "j" in /home1/animaldr/public_html/r.php:119
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/r.php on line 119
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Undefined variable $item in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Undefined variable $item in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Undefined variable $item in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Undefined variable $item in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Undefined variable $item in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Undefined variable $item in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Undefined variable $item in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 01:32:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/r.php on line 120
+[12-Sep-2022 06:09:25 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:10:01 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:10:04 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:13:38 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:13:42 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:14:10 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:14:12 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:14:13 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:14:14 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:14:14 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:14:15 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:14:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:14:57 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:19:46 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:20:23 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home1/animaldr/public_html/d-list.php:131
+Stack trace:
+#0 /home1/animaldr/public_html/d-list.php(131): array_push('', 'animal')
+#1 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 131
+[12-Sep-2022 06:45:14 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home1/animaldr/public_html/d-list.php:132
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 132
+[12-Sep-2022 06:46:19 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home1/animaldr/public_html/d-list.php:132
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/d-list.php on line 132
+[13-Sep-2022 05:50:50 UTC] PHP Warning:  Undefined variable $gifElement in /home1/animaldr/public_html/d-list.php on line 114
+[13-Sep-2022 05:50:50 UTC] PHP Warning:  Undefined variable $gifElement in /home1/animaldr/public_html/d-list.php on line 114
+[13-Sep-2022 05:50:50 UTC] PHP Warning:  Undefined variable $gifElement in /home1/animaldr/public_html/d-list.php on line 114
+[13-Sep-2022 05:50:50 UTC] PHP Warning:  Undefined variable $gifElement in /home1/animaldr/public_html/d-list.php on line 114
+[13-Sep-2022 05:50:50 UTC] PHP Warning:  Undefined variable $gifElement in /home1/animaldr/public_html/d-list.php on line 114
+[13-Sep-2022 05:50:50 UTC] PHP Warning:  Undefined variable $gifElement in /home1/animaldr/public_html/d-list.php on line 114
+[13-Sep-2022 05:50:50 UTC] PHP Warning:  Undefined variable $gifElement in /home1/animaldr/public_html/d-list.php on line 114
+[28-Nov-2022 15:25:09 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, Aws\Command given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('createPresigned...', Object(Aws\Command))
+#1 /home1/animaldr/public_html/d-list.php(18): Aws\AwsClient->__call('createPresigned...', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[28-Nov-2022 16:17:55 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, Aws\Command given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('createPresigned...', Object(Aws\Command))
+#1 /home1/animaldr/public_html/d-list.php(18): Aws\AwsClient->__call('createPresigned...', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[14-Feb-2023 10:42:16 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, Aws\Command given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('createPresigned...', Object(Aws\Command))
+#1 /home1/animaldr/public_html/d-list.php(18): Aws\AwsClient->__call('createPresigned...', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[14-Feb-2023 10:42:17 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, Aws\Command given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('createPresigned...', Object(Aws\Command))
+#1 /home1/animaldr/public_html/d-list.php(18): Aws\AwsClient->__call('createPresigned...', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[14-Feb-2023 10:44:15 UTC] PHP Fatal error:  Uncaught TypeError: Aws\AwsClient::getCommand(): Argument #2 ($args) must be of type array, Aws\Command given, called in /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php on line 86 and defined in /home1/animaldr/public_html/aws/Aws/AwsClient.php:255
+Stack trace:
+#0 /home1/animaldr/public_html/aws/Aws/AwsClientTrait.php(86): Aws\AwsClient->getCommand('createPresigned...', Object(Aws\Command))
+#1 /home1/animaldr/public_html/d-list.php(18): Aws\AwsClient->__call('createPresigned...', Array)
+#2 {main}
+  thrown in /home1/animaldr/public_html/aws/Aws/AwsClient.php on line 255
+[24-Feb-2023 17:29:49 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home1/animaldr/public_html/list.php:142
+Stack trace:
+#0 /home1/animaldr/public_html/list.php(142): json_decode(Array)
+#1 {main}
+  thrown in /home1/animaldr/public_html/list.php on line 142
+[24-Feb-2023 17:38:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:95) in /home1/animaldr/public_html/list.php on line 147
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Undefined array key 0 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:42:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:86) in /home1/animaldr/public_html/list.php on line 151
+[24-Feb-2023 17:43:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:101) in /home1/animaldr/public_html/list.php on line 152
+[24-Feb-2023 17:47:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function size() in /home1/animaldr/public_html/list.php:86
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/list.php on line 86
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:47:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:87) in /home1/animaldr/public_html/list.php on line 161
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Undefined array key 0 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:49:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:87) in /home1/animaldr/public_html/list.php on line 163
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:50:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:87) in /home1/animaldr/public_html/list.php on line 164
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:51:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:87) in /home1/animaldr/public_html/list.php on line 164
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Undefined array key 0 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 87
+[24-Feb-2023 17:55:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:87) in /home1/animaldr/public_html/list.php on line 145
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:88) in /home1/animaldr/public_html/list.php on line 156
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:57:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:88) in /home1/animaldr/public_html/list.php on line 156
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[24-Feb-2023 17:58:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:88) in /home1/animaldr/public_html/list.php on line 156
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:88) in /home1/animaldr/public_html/list.php on line 156
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/list.php on line 88
+[25-Feb-2023 17:55:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/animaldr/public_html/list.php:88) in /home1/animaldr/public_html/list.php on line 156
+[25-Feb-2023 18:27:31 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home1/animaldr/public_html/new-list.php:46
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/new-list.php on line 46
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Undefined array key 0 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Undefined array key 0 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Undefined array key 0 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:55:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Undefined array key 0 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Undefined array key 0 in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 61
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/new-list.php on line 51
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 51
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/new-list.php on line 51
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 51
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/new-list.php on line 51
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 51
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/new-list.php on line 51
+[25-Feb-2023 18:56:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 51
+[25-Feb-2023 19:21:53 UTC] PHP Warning:  Undefined array key 1 in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:21:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:21:53 UTC] PHP Warning:  Undefined array key 2 in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:21:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:21:53 UTC] PHP Warning:  Undefined array key 3 in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:21:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:21:53 UTC] PHP Warning:  Undefined array key 4 in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:21:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:26:30 UTC] PHP Warning:  Undefined array key "AnimalName" in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:26:30 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home1/animaldr/public_html/new-list.php:50
+Stack trace:
+#0 /home1/animaldr/public_html/new-list.php(50): in_array('Giftest', NULL)
+#1 {main}
+  thrown in /home1/animaldr/public_html/new-list.php on line 50
+[25-Feb-2023 19:38:18 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /home1/animaldr/public_html/new-list.php:54
+Stack trace:
+#0 /home1/animaldr/public_html/new-list.php(54): in_array('Giftest', 'Giftest')
+#1 {main}
+  thrown in /home1/animaldr/public_html/new-list.php on line 54
+[25-Feb-2023 19:38:59 UTC] PHP Parse error:  Unclosed '{' on line 50 does not match ')' in /home1/animaldr/public_html/new-list.php on line 55
+[25-Feb-2023 19:39:02 UTC] PHP Parse error:  Unclosed '{' on line 50 does not match ')' in /home1/animaldr/public_html/new-list.php on line 55
+[25-Feb-2023 19:45:22 UTC] PHP Parse error:  Unclosed '{' on line 77 does not match ')' in /home1/animaldr/public_html/new-list.php on line 82
+[25-Feb-2023 19:45:26 UTC] PHP Parse error:  Unclosed '{' on line 77 does not match ')' in /home1/animaldr/public_html/new-list.php on line 82
+[25-Feb-2023 19:46:12 UTC] PHP Parse error:  Unclosed '{' on line 77 does not match ')' in /home1/animaldr/public_html/new-list.php on line 82
+[25-Feb-2023 19:47:20 UTC] PHP Parse error:  syntax error, unexpected token "try" in /home1/animaldr/public_html/new-list.php on line 4
+[25-Feb-2023 19:47:56 UTC] PHP Parse error:  syntax error, unexpected token "try" in /home1/animaldr/public_html/new-list.php on line 4
+[25-Feb-2023 19:47:58 UTC] PHP Parse error:  syntax error, unexpected token "try" in /home1/animaldr/public_html/new-list.php on line 4
+[25-Feb-2023 19:48:30 UTC] PHP Parse error:  syntax error, unexpected token "try" in /home1/animaldr/public_html/new-list.php on line 4
+[25-Feb-2023 19:48:40 UTC] PHP Parse error:  syntax error, unexpected token "try" in /home1/animaldr/public_html/new-list.php on line 4
+[25-Feb-2023 19:49:09 UTC] PHP Parse error:  Unclosed '{' on line 79 does not match ')' in /home1/animaldr/public_html/new-list.php on line 84
+[25-Feb-2023 19:49:10 UTC] PHP Parse error:  Unclosed '{' on line 79 does not match ')' in /home1/animaldr/public_html/new-list.php on line 84
+[25-Feb-2023 19:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function E_ALL() in /home1/animaldr/public_html/new-list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/animaldr/public_html/new-list.php on line 3
